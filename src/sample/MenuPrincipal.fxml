@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="232.0" prefWidth="334.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MenuPrincipalController">
+   <children>
+      <Label layoutX="77.0" layoutY="25.0" text="TP3 - Casse-tête">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <Button fx:id="Btn_Editeur" layoutX="119.0" layoutY="136.0" mnemonicParsing="false" onAction="#editeur" text="Créer une carte" />
+      <Button fx:id="btn_jeu" layoutX="106.0" layoutY="103.0" mnemonicParsing="false" onAction="#jeu" onMouseClicked="#jeu" text="Démarrer une partie" />
+      <Button layoutX="141.0" layoutY="169.0" mnemonicParsing="false" onAction="#quitter" text="Quitter" />
+      <Label layoutX="102.0" layoutY="61.0" text="Par Christophe Verreault" />
+   </children>
+</AnchorPane>
